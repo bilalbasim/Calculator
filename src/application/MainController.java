@@ -45,16 +45,16 @@ public class MainController implements Initializable {
 			}
 			switch (operator) {
 			case "X":
-				num /= temp;
+				num *= temp;
 				break;
 			case "-":
-				num *= temp;
+				num -= temp;
 				break;
 			case "+":
 				num += temp;
 				break;
 			case "/":
-				num -= temp;
+				num /= temp;
 				break;
 			default:
 				num = temp;
